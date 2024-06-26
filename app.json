@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "awkward-yellow-almond",
+    "slug": "snack-07f2a530-b67b-420e-baa8-b1c57950d112",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "jsEngine": "hermes",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need your permission to use your camera.",
+        "NSPhotoLibraryUsageDescription": "We need your permission to access your photos.",
+        "NSPhotoLibraryAddUsageDescription": "We need your permission to save photos."
+      },
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.anonymous.snack07f2a530b67b420ebaa8b1c57950d112",
+      "jsEngine": "jsc"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "jsEngine": "jsc"
+    }
+  }
+}
